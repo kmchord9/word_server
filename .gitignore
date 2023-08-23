@@ -186,4 +186,4 @@ next-env.d.ts
 
 .env
 
-core
+volume/node/word-app/core
