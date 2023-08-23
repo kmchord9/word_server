@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import WordForm from './WordForm'
+
 
 export default function Home() {
   return (
@@ -16,6 +18,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{' '}
+            <WordForm>test</WordForm>
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
